@@ -36,4 +36,10 @@ module.exports.routes = {
     'POST /api/agenda': 'AgendaController.create',
     'PUT /api/agenda/:id': 'AgendaController.update',
     'DELETE /api/agenda/:id': 'AgendaController.delete',
+
+    'GET /api/Usuario': 'BackUsuarioController.get',
+    'POST /api/Usuario': 'BackUsuarioController.create',
+    'PUT /api/Usuario/:id': 'BackUsuarioController.update',
+    'DELETE /api/Usuario/:id': 'BackUsuarioController.delete',
+
 };
